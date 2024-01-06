@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+}
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+    .card h1{
+        width: fit-content;
+    
+        text-align: center;
+    }
+.card img{
+    height: 200px;
+}
+.title{
+    font-size: 18px;
+    color: gray;
+}
+button{
+    outline: 0;
+    border: none;
+    padding: 8px;
+    display: inline-block;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font: 18px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover , a:hover{
+    opacity: 0.7;
+}
+
+form.search_form input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 4px;
+    float: left;
+    width: 80%;
+    color: white;
+    background-color:#343a40 !important;
+    border: 1px solid #343a40!important
+}
+form.search_form button{
+    padding: 10px;
+    float: left;
+    width: 30%;
+    font-size: 17px;
+    background-color:#343a40 !important;
+    border: 1px solid #343a40!important;
+    border-left:none;
+    cursor: pointer;
+}
+form.search_form button:hover{
+    background: #343a40 !important;
+
+}
+form.search_form::after{
+    content: "";
+    clear: both;
+    display: table;
+}
